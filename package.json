@@ -31,14 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bokuweb/react-rnd.git"
+    "url": "https://github.com/auditt98/react-rnd"
   },
   "author": "bokuweb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bokuweb/react-rnd/issues"
+    "url": "https://github.com/auditt98/react-rnd"
   },
-  "homepage": "https://github.com/bokuweb/react-rnd",
+  "homepage": "https://github.com/auditt98/react-rnd",
   "devDependencies": {
     "@babel/cli": "7.17.6",
     "@babel/core": "7.17.5",
