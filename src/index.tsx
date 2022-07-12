@@ -625,8 +625,8 @@ export class Rnd extends React.PureComponent<Props, State> {
     let draggablePosition;
     if (position) {
       draggablePosition = {
-        x: position.x - left,
-        y: position.y - top,
+        x: position.x,
+        y: position.y,
       };
     }
     // INFO: Make uncontorolled component when resizing to control position by setPostion.
