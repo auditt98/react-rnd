@@ -393,7 +393,7 @@ export class Rnd extends React.PureComponent<Props, State> {
     const scale = this.props.scale as number;
     const offset = this.offsetFromParent;
     const pos = this.getDraggablePosition();
-    this.resizingPosition = { x: pos.x + offset.left, y: pos.y + offset.top };
+    this.resizingPosition = { x: pos.x, y: pos.y};
     this.originalPosition = pos;
 
     if (this.props.bounds) {
