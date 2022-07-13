@@ -563,10 +563,9 @@ export class Rnd extends React.PureComponent<Props, State> {
     const scrollLeft = parent.scrollLeft;
     const scrollTop = parent.scrollTop;
     this.offsetFromParent = {
-      left: selfRect.left - parentLeft + scrollLeft - position.x * scale,
-      top: selfRect.top - parentTop + scrollTop - position.y * scale,
+      left: 0,
+      top: 0,
     };
-
   }
 
   refDraggable = (c: $TODO) => {
